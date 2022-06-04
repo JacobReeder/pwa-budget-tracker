@@ -18,7 +18,7 @@ app.use(express.static("public"));
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  useUnifiedTopology: true ////Had to change starter code to avoide error//added this from 18.1.5
+  useUnifiedTopology: true ////Had to change starter code to avoide error//added this
 });
 
 // routes

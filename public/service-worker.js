@@ -1,7 +1,13 @@
 const APP_PREFIX = 'BudgetTracker-';     
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
+const DATA_CACHE_NAME = 'data-cache-v1';
+
 const FILES_TO_CACHE = [
+    "/",
+    "/css/styles.css",
+    "/js/idb.js",
+    "/js/index.js"
 
 ];
 
@@ -46,8 +52,6 @@ self.addEventListener('fetch', function (e) {
           return fetch(e.request)
         }
   
-        // You can omit if/else for console.log & put one line below like this too.
-        // return request || fetch(e.request)
       })
     )
   })

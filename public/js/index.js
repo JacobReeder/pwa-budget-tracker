@@ -6,7 +6,6 @@ fetch("/api/transaction")
     return response.json();
   })
   .then(data => {
-    // save db data on global variable
     transactions = data;
 
     populateTotal();
@@ -143,6 +142,8 @@ function sendTransaction(isAdding) {
     amountEl.value = "";
   });
 }
+
+
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
