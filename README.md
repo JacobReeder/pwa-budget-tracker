@@ -16,3 +16,6 @@ Navigate to the application by clicking the link below. Once there, fill out the
 
 ## Link
 Links to application - https://mighty-temple-15168.herokuapp.com/
+
+ 
+<img width="1440" alt="Screen Shot 2022-06-22 at 6 55 53 PM" src="https://user-images.githubusercontent.com/97851357/175190935-5d004a28-bc3f-478b-9fcf-c52bbe9692d2.png">
